@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Football</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ..........................
+        section-1-1 
+        .......................... */
+        .section-1-1 {
+            height: 677px;
+            /* width: 1440px; */
+            background-color: #2D25A0;
+            color: white;
+            /* justify-content: center;
+            align-items: center;
+            */
+        }
+
+        .container-1 {
+            display: flex;
+            padding-top: 42px;
+            /* padding-left: 156px; */
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .container-1-1 {
+            display: flex;
+            width: 1160px;
+
+        }
+
+        .container-1-2,
+        .headbutton-2-2 {
+            display: flex;
+            /* padding: 5px; */
+            /* margin: 10px; */
+            /* margin-right: 25px; */
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 120px;
+        }
+
+        .container-2 {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            margin-left: 156px;
+            margin-top: 135px;
+        }
+
+
+        .container-2-1 {
+            width: 50%;
+            /* padding-left: 1%; */
+            /* margin-right: 102px; */
+
+        }
+
+        h1 {
+            font-size: 64px;
+        }
+
+        .container-2-2 {
+            width: 50%;
+            /* padding-left: 10%; */
+        }
+
+        .container-2-2>img {
+            width: 556.01px;
+            height: 428px;
+        }
+
+
+        /* ..........................
+        section-2-1
+        .......................... */
+        .section-2-1 {}
+
+        .players {
+            display: grid;
+            grid-template-columns: repeat(3, 330px);
+            justify-content: center;
+            /* width: 330px; */
+            /* height: 474px; */
+            grid-gap: 30px 27px;
+            margin-top: 70px;
+        }
+
+        .player {
+            padding: 15px;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .player>img {
+            width: 300px;
+            height: 256px;
+        }
+
+        h3 {
+            width: 300px;
+            height: 40px;
+            margin-top: 16px;
+            font-weight: 1000;
+            font-size: 28px;
+            color: #18191F;
+        }
+
+        p {
+            width: 300px;
+            height: 104px;
+            font-size: 16px;
+        }
+
+
+        /* ..........................
+        section-3-1
+        .......................... */
+        .section-3-1 {
+            display: flex;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            margin-top: 165px;
+            margin-bottom: 158px;
+        }
+
+        .all-highlights {
+            margin-right: 66px;
+        }
+
+        .highlights-img>img {
+            width: 567px;
+            height: 427px;
+        }
+
+        .highlights-article {
+            width: 404px;
+            height: 113px;
+
+        }
+
+        .highlight-heading {
+            width: 469px;
+            height: 120px;
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- /* ..........................
+    section-1-1
+    .......................... */ -->
+    <section class="section-1-1">
+        <div class="container-1">
+            <div class="container-1-1">
+                <nav class="nav topbutton">Home</nav>
+                <nav class="nav topbutton">Clubs</nav>
+                <nav class="nav topbutton">World Cup 2021</nav>
+                <nav class="nav topbutton">Upcoming Matches</nav>
+                <nav class="nav topbutton">Contact</nav>
+            </div>
+
+            <div class="container-1-2">
+                <div class="navimg toplogin">
+                    <img src="images/Social Icons/login.png" alt="" style="width: 25px; height: 20px;">
+                </div>
+                <div class="navtext toplogin" style="padding-top: 1px;">
+                    Login
+                </div>
+            </div>
+        </div>
+
+        <div class="container-2">
+            <div class="container-2-1">
+                <div class="heading-2-1">
+                    <h1>Conmebol Copa America 2021</h1>
+                </div>
+
+                <div class="headbutton-2-2">
+                    <div class="navtext toplogin" style="padding-top: 1px;">
+                        Watch Live
+                    </div>
+                    <div class="navimg toplogin">
+                        <img src="images/Social Icons/login.png" alt="" style="width: 25px; height: 20px;">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-2-2">
+                <img src="images/banner.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- /* ..........................
+    section-2-1
+    .......................... */ -->
+    <section class="section-2-1">
+        <!-- .players>.player*12>img[src="images/players/player-$.png"]+h3{Players Name-$}+p{lorem10} -->
+        <div class="players">
+            <div class="player">
+                <img src="images/players/player-1.png" alt="">
+                <h3>Neymar Jr</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-2.png" alt="">
+                <h3>Lionel Messi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-3.png" alt="">
+                <h3>Cristiano Ronaldo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-4.png" alt="">
+                <h3>Paulo Dybala</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-5.png" alt="">
+                <h3>Mesut Ozil </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-6.png" alt="">
+                <h3>Mauro Icardi </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-7.png" alt="">
+                <h3>Di Maria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-8.png" alt="">
+                <h3>Kylian Mbappé</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-9.png" alt="">
+                <h3>Mohamed Salah</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-10.png" alt="">
+                <h3>Neymar Jr0</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-11.png" alt="">
+                <h3>Neymar Jr1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+            <div class="player">
+                <img src="images/players/player-12.png" alt="">
+                <h3>Neymar Jr2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+                    lectus at.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- /* ..........................
+    section-3-1
+    .......................... */ -->
+    <section class="section-3-1">
+        <div class="all-highlights">
+            <div class="highlights">
+                <h2 class="highlight-heading">
+                    All Highlights<br>Copa America 2021
+                </h2>
+                <article class="highlights-article">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                    amet.</article>
+            </div>
+
+            <div class="highlights-button">
+                watch Now
+            </div>
+        </div>
+
+        <div class="highlights-img">
+            <img src="images/match.png" alt="">
+        </div>
+    </section>
+
+
+</body>
+
+</html>
